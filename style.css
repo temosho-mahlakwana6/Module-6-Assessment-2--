@@ -1,0 +1,209 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    
+    height: 100%;
+}
+
+.body-home {
+    background-image: url('images/background%201.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.body-sales {
+    background-image: url('images/background%203.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/*================ HEADER =============*/
+.header {
+    background-color: maroon;
+    
+    width: 100%;
+    height: 50px;
+    top: 0;
+    
+    position: fixed;
+    overflow: hidden;
+    
+    text-align: center;
+}
+
+.header i {
+ float: left;
+    padding: 17px 0px 0px 17px;
+    color: #ffffff;
+}
+.header img {
+    width: 150px;
+    padding-top: 14px;
+    padding-right: 25px;
+}
+/************** HOME PAGE *****************/
+
+#home-logo-img {
+    width: 150px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+/************** HOME PAGE SALE ************/
+.home-sale-item{
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid #ffffff;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/************** HOME PAGE *****************/
+#ford {
+    padding-top: 50px;
+}
+/************** FORD PAGE SALE *****************/
+
+.ford-list a {
+    text-decoration: none;
+}
+
+.ford-list-item {
+    border: 5px solid #ffffff;
+    margin: 10px;
+}
+
+.ford-list-item h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.ford-list-item i {
+    float: right;
+}
+
+.ford-list-item p {
+    font-size: 15px;
+    font-style: italic;
+    color: #ffffff;
+    margin-top: -7px;
+    padding-left: 10px;
+        
+}
+
+/************** SALE PAGE *****************/
+#sales {
+    padding-top: 50px; 
+}
+
+/************** SALES DETAILS *****************/
+
+.sales-details img {
+    width: 100%;
+}
+.sales-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid maroon;
+    margin: 10px;
+    padding: 5px;
+    color: maroon;
+}
+
+.sales-details h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+    
+}
+
+.sales-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.sales-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.sales-details-ingredients label {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+.sales-details-steps {
+    padding-top: 20px;
+}
+
+.sales-details-steps ol {
+    padding-left: 28px;
+}
+
+#menu{
+    background-color: maroon;
+    height: 100px;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    }
+
+#menu li{
+    display: inline-block;
+}
+
+#menu a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 100px;
+    color: #ffffff;
+    
+    padding: 0 40px;
+    border: none;
+    display: block;
+}
+
+#menu a:hover{
+    background-color: #1abc9c;
+}
+
+
+
+
+
+
+
+
+
+
+
